@@ -5,8 +5,8 @@ import Bolt from '../comps/Bolt';
 export default function Popup(): JSX.Element {
   return (
       <div className="accordion" id="accordionExample5">
-        <div className="accordion-item bg-white border border-gray-200">
-          <h2 className="accordion-header mb-0" id="headingOne5">
+        <div className="accordion-item bg-white border border-gray-200 m">
+          <h2 className="accordion-header mb-0 max" id="headingOne5">
             <button className="
     accordion-button
     relative
@@ -15,18 +15,17 @@ export default function Popup(): JSX.Element {
     w-full
     py-4
     px-5
-    text-base text-gray-800 text-left
-    bg-white
-    border-0
+    text-base text-gray-800 text-center
+    border
     rounded-none
     transition
       " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne5" aria-expanded="true"
                     aria-controls="collapseOne5">
-              <strong>Bolt</strong>
+              BOLT
             </button>
           </h2>
           <div id="collapseOne5" className="accordion-collapse collapse show" aria-labelledby="headingOne5">
-            <div className="accordion-body py-4 px-5">
+            <div className="accordion-body py-1 px-1 max-h-48 overflow-auto">
               <Bolt></Bolt>
             </div>
           </div>

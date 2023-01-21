@@ -5,3 +5,9 @@ body {
 .container {
   color: #ffffff;
 }
+
+.button {
+  background-color: #6f42c1;
+  solid-color: #d50000;
+  color: #20c997;
+}
