@@ -33,7 +33,7 @@ export default function Popup(): JSX.Element {
             </button>
           </h2>
           <div id="collapseOne5" className="accordion-collapse collapse show" aria-labelledby="headingOne5">
-            <div className="accordion-body py-1 px-1 max-h-48 overflow-auto">
+            <div className="accordion-body py-1 px-1">
               <Bolt></Bolt>
             </div>
           </div>
