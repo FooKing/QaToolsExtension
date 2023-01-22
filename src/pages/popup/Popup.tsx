@@ -1,9 +1,17 @@
 import React from 'react';
 import 'tw-elements';
 import Bolt from '../comps/Bolt';
+import './index.css'
 
 export default function Popup(): JSX.Element {
   return (
+      <div>
+      <nav
+          className="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-700 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light h-12"
+      >
+        <h1 className="appH1">Qa Toolkit</h1>
+
+      </nav>
       <div className="accordion" id="accordionExample5">
         <div className="accordion-item bg-white border border-gray-200 m">
           <h2 className="accordion-header mb-0 max" id="headingOne5">
@@ -96,6 +104,7 @@ export default function Popup(): JSX.Element {
             </div>
           </div>
         </div>
+      </div>
       </div>
   );
 }

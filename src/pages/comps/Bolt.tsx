@@ -95,7 +95,6 @@ export default function Panel(): JSX.Element {
             <div className="tab-content" id="tabs-tabContentVertical">
                 <div className="tab-pane fade show active" id="tabs-homeVertical" role="tabpanel"
                      aria-labelledby="tabs-home-tabVertical">
-                    Tab 1 content vertical
                 </div>
                 <div className="tab-pane fade" id="tabs-profileVertical" role="tabpanel"
                      aria-labelledby="tabs-profile-tabVertical">
